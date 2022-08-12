@@ -1,3 +1,20 @@
+/* 1. universal selector */
+/* 2. wrapper */
+/* 3. hero */
+/* 4. grid */
+/* 5. picture */
+/* 6. quote */
+/* 7. picture button or slide feature*/
+/* 8. quote button*/
+/* 9. email submission*/
+/* 10. footer */
+
+
+
+
+
+
+
 @media only screen and (min-width: 1px) {
     .container {
         display: flex;
@@ -50,3 +67,4 @@
         color: whitesmoke;
       }
   }
+
