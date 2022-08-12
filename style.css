@@ -1,0 +1,99 @@
+/* mobile first */
+@media only screen and (min-width: 1px) {
+      html {
+        font-family: sans-serif;
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 2px;
+        padding: 2px; 
+        margin-top: 0;
+        -webkit-background-size: cover; 
+        background-attachment: fixed; 
+        background-color: #010101cf; 
+        background-size: cover;
+      }
+      header {
+        background: transparent;
+        height: 100px;
+        display: flex; 
+        flex-wrap: wrap; 
+      }
+      footer {
+        background: transparent;
+        height: 100px;
+        display: flex; 
+        flex-wrap: wrap; 
+      }
+      h1 {
+        text-align: left;
+        color: white;
+        display: flex; 
+        flex-wrap: wrap; 
+      }
+      h2 {
+        text-align: left;
+        color: white;
+        display: flex; 
+        flex-wrap: wrap; 
+      }
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: transparent;
+      }
+      /*flexbox*/
+      section {
+        display: flex;
+        color: white; 
+      }
+      article {
+        flex: 1 200px;
+      }
+      button {
+        flex: 1 auto;
+        margin: 5px;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+       /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: scroll; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+    /* Modal Content/Box */
+      .modal-content {
+        background-color: transparent;
+        color: black; 
+        margin: auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: none;
+        width: 50%; /* Could be more or less, depending on screen size */
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+      }
+    /* The Close Button */
+        .close {
+        color: whitesmoke;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+.close:hover,
+.close:focus {
+  color: orangered; 
+  text-decoration: none;
+  cursor: pointer;
+}
+}
+/* @media only screen and (min-width: 600px)  */ 
