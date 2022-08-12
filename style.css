@@ -14,7 +14,10 @@
 
 
 
-
+.cute-btn {
+  max-height: auto;
+  max-width: 75%;
+}
 
 @media only screen and (min-width: 1px) {
     .container {
