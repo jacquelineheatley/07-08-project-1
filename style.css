@@ -1,52 +1,108 @@
+/* mobile first */
 @media only screen and (min-width: 1px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap; 
-        flex-direction: row; 
-        width: 100%;
-        height: 33vh;  
+      html {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        scroll-behavior: smooth; 
       }
-      
-      .item {
-        flex-grow: 1;
-        height: 100px;
-        margin-left: 2%; 
-      }
-    
-      p, h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: flex;
-      }
-    
       body {
-        background-color: #666666cf;
-        color: whitesmoke;
+        margin-top: 0px;
+        padding: 10px; 
+        -webkit-background-size: cover; 
+        height: 100vh; 
+        width: 90%; 
+        background-attachment: fixed;
+        background-color: #90806Fcf;
+        background-size: cover;
       }
-    }
-
-
-@media only screen and (min-width: 600px) {
-    .container {
-        display: flex;
+      h1 {
+        text-align: left;
+        color: #A6998C;
+        display: flex; 
         flex-wrap: wrap; 
-        flex-direction: row; 
-        width: 100%;
-        height: 600px; 
       }
-      
-      .item {
-        flex-grow: 1;
-        height: 100px;
-        margin-left: 2%;
+      h2 {
+        text-align: left;
+        color: #A6998C; 
+        display: flex; 
+        flex-wrap: wrap; 
       }
+      p {
+        text-align: left;
+        color: #A6998C; 
+        display: flex; 
+        flex-wrap: wrap; 
+      }
+      article {
+        padding: 10px;
+        margin: 10px;
+        max-width: 100%;
+        border-style: outset; 
+        border-color: #f5f5f5cf; 
+        background-color:  #f5f5f5cf;
+        color: #A6998C; 
+      }
+      .control {
+        text-indent: 2px; 
+        flex: 1 auto; 
+        margin: auto; 
+        color: #8c99a6cf;
+      }
+      /*flexbox*/
+      section {
+        display: flex;
+        color: rgba(255, 255, 255, 0.181); 
+      }
+      article {
+        flex: 1 200px;
+      }
+      button {
+        flex: 1 auto;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.5;
+        border-style: outset; 
+        border-color: #f5f5f5cf; 
+        background-color:  #f5f5f5;
+        color: #A6998C; 
+      }
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
-      p, h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 40px;
-      }
-    
-      body {
-        background-color: #010101cf;
-        color: whitesmoke;
-      }
-  }
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+}
+
+/* @media only screen and (min-width: 700px)  */
+/* add css for larger screens here */
