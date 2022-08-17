@@ -4,12 +4,18 @@
 const catApiUrl = 'https://api.thecatapi.com/v1/images/search';
 var catPicBtn = document.getElementById('get-cat-button');
 var catBox = document.querySelector('.cat-box');
+var catPicElement = document.createElement('img');
+
+
+
 window.onload = function init() {
     
 }
 
 var getCatPicButtonHandler = function (event) {
     event.preventDefault();
+    
+    catPicElement.textContent = '';
     getRandomCat();
 }
 
@@ -33,7 +39,6 @@ var getRandomCat = function() {
 }
 
 var displayCat = function(data) {
-    var catPicElement = document.createElement('img');
     let catImgUrl = data[0].url;
     catPicElement.setAttribute('src', catImgUrl);
     catBox.appendChild(catPicElement);
