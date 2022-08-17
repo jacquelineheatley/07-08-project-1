@@ -32,7 +32,7 @@ var getRandomCat = function() {
 
 }
 
-var displayCat = function() {
+var displayCat = function(data) {
     var catPicElement = document.createElement('img');
     let catImgUrl = data[0].url;
     catPicElement.setAttribute('src', catImgUrl);
