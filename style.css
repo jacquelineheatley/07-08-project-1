@@ -21,7 +21,7 @@
         flex-wrap: wrap; 
       }
       h2 {
-        text-align: left;
+        text-align: center;
         color: #55c562; 
         display: flex; 
         flex-wrap: wrap; 
@@ -72,8 +72,7 @@
         width: 100%;
       }
       .responsive {
-        width: 100%;
-        max-width: 200px;
+        max-width: 75%;
         height: auto;
       }
  /* The Modal (background) */
