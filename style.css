@@ -16,19 +16,19 @@
       }
       h1 {
         text-align: left;
-        color: #A6998C;
+        color: #55c562;
         display: flex; 
         flex-wrap: wrap; 
       }
       h2 {
         text-align: left;
-        color: #A6998C; 
+        color: #55c562; 
         display: flex; 
         flex-wrap: wrap; 
       }
       p {
         text-align: left;
-        color: #A6998C; 
+        color: #55c562; 
         display: flex; 
         flex-wrap: wrap; 
       }
@@ -37,15 +37,16 @@
         margin: 10px;
         max-width: 100%;
         border-style: outset; 
-        border-color: #f5f5f5cf; 
-        background-color:  #f5f5f5cf;
+        border-radius: 5px;
+        border-color: #3c854fcf; 
+        background-color:  #149559cf;
         color: #A6998C; 
       }
       .control {
         text-indent: 2px; 
         flex: 1 auto; 
         margin: auto; 
-        color: #8c99a6cf;
+        color: #074f0ccf;
       }
       /*flexbox*/
       section {
@@ -61,9 +62,19 @@
         font-size: 18px;
         line-height: 1.5;
         border-style: outset; 
+        border-radius: 5px;
         border-color: #f5f5f5cf; 
         background-color:  #f5f5f5;
         color: #A6998C; 
+      }
+      cat-box-img {
+        max-height: 100px;
+        width: 100%;
+      }
+      .responsive {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
       }
  /* The Modal (background) */
 .modal {
