@@ -53,6 +53,59 @@ $(document).ready(function () {
 
 })
 
+//quoteAPI
+//quoteAPI URL 'https://zenquotes.io/api/quotes/[your_key]'
+//api key 14506d27052981f35f38ed5d841efd2077a96c16
+const quoteApiUrl = 'https://zenquotes.io/api/quotes/';
+    var quoteBtn = document.getElementById('get-quote-btn');
+    var quoteApi = document.querySelector('.quote-api');
+
+
+
+
+    var getQuoteBtnHandler = function (event) {
+        event.preventDefault();
+
+        quoteElement.textContent = '';
+        getRandomQuote();
+    }
+
+
+    // get quote function:
+    var getRandomQuote = function () {
+        fetch(quoteApiUrl)
+            .then(function (response) {
+                if (response.ok) {
+                    console.log(response);
+                    return response.json();
+                }
+            })
+            .then(function (data) {
+                console.log(data);
+                let quoteApiUrl = data[0].url;
+                console.log(data[0].url);
+                displayQuote(data);
+            })
+
+    }
+
+    var displayQuote = function (data) {
+        let quoteApiUrl = data[0].url;
+        quoteElement.setAttribute('src', quoteUrl);
+        quoteApi.appendChild(quoteElement);
+    }
+
+    var init = function () {
+        getRandomQuote();
+    }
+
+    quoteBtn.addEventListener('click', getQuoteBtnHandler);
+
+    init();
+})
+
+
+
 
 
 
