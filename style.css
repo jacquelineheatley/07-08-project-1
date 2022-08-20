@@ -14,20 +14,25 @@
         background-color: #90806Fcf;
         background-size: cover;
       }
+      .banner {
+        font-size: 35px;
+        min-height: 180px;
+        padding-left: 15px;
+      }
       h1 {
-        text-align: left;
+        text-align: center;
         color: #55c562;
         display: flex; 
         flex-wrap: wrap; 
       }
       h2 {
-        text-align: left;
+        text-align: center;
         color: #55c562; 
         display: flex; 
         flex-wrap: wrap; 
       }
       p {
-        text-align: left;
+        text-align: center;
         color: #55c562; 
         display: flex; 
         flex-wrap: wrap; 
@@ -35,12 +40,21 @@
       article {
         padding: 10px;
         margin: 10px;
-        max-width: 100%;
+        min-height: 320px;
+        max-width: 1460px;
         border-style: outset; 
         border-radius: 5px;
         border-color: #3c854fcf; 
         background-color:  #149559cf;
         color: #A6998C; 
+      } 
+      api1, api3 {
+        max-height: 320px;
+      }
+      cat-box
+      {
+        max-width: 960px;
+        margin: 0;
       }
       .control {
         text-indent: 2px; 
@@ -68,13 +82,22 @@
         color: #A6998C; 
       }
       cat-box-img {
-        max-height: 100px;
         width: 100%;
-      }
-      .responsive {
+        padding: 42%;
+        object-fit: contain;
+      }/*
+      cat-box-img img {
         width: 100%;
-        max-width: 200px;
+        max-inline-size: 75%;
+        block-size: auto;
         height: auto;
+        object-fit: contain;
+      }*/
+      footer {
+        text-align: center;
+      }
+      span {
+        content: "#2764"
       }
  /* The Modal (background) */
 .modal {
