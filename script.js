@@ -62,7 +62,7 @@ $(document).ready(function () {
 
     }
 
-    // display quote:
+    // display fact:
     var displayFacts = function (data) {
         var factText = data.data[0];
         factTextElement.innerText = factText;
