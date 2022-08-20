@@ -1,11 +1,11 @@
 $(document).ready(function () {
     // API Project:
 
-    const quoteApiUrl = 'https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/';
-    var getQuoteBtn = document.getElementById('get-quote-button');
-    var quoteBox = document.querySelector('#quote-box');
-    var quoteTextElement = document.createElement('h3'); 
-    var quoteAuthorElement = document.createElement('p');
+    const factsApiUrl = 'https://meowfacts.herokuapp.com/';
+    var getFactBtn = document.getElementById('get-fact-button');
+    var factBox = document.querySelector('#fact-box');
+    var factTextElement = document.createElement('h3'); 
+    var factAuthorElement = document.createElement('p');
 
     const catApiUrl = 'https://api.thecatapi.com/v1/images/search';
     var catPicBtn = document.getElementById('get-cat-button');
@@ -14,11 +14,11 @@ $(document).ready(function () {
 
 
     // button handlers:
-    var getQuoteBtnHandler = function(event) {
+    var getFactBtnHandler = function(event) {
         event.preventDefault();
 
-        quoteBox.textContent = '';
-        getRandomQuote();
+        factBox.textContent = '';
+        getRandomFact();
     }
 
 
@@ -31,8 +31,8 @@ $(document).ready(function () {
 
 
     // get quote function:
-    var getRandomQuote = function() {
-        fetch(quoteApiUrl)
+    var getRandomFact = function() {
+        fetch(factsApiUrl)
         .then(function(response) {
             if (response.ok) {
                 console.log(response);
@@ -40,11 +40,8 @@ $(document).ready(function () {
             }
         })
         .then(function (data) {
-            console.log(data);
-            console.log(data[0]);
-            console.log(data[0].q);
-            console.log(data[0].h);
-            displayQuote(data);
+            console.log(data.data[0]);
+            displayFacts(data);
         })
     }
 
@@ -59,22 +56,20 @@ $(document).ready(function () {
             })
             .then(function (data) {
                 console.log(data);
-                let catImgUrl = data[0].url;
                 console.log(data[0].url);
                 displayCat(data);
             })
 
     }
 
-    // display quote:
-    var displayQuote = function (data) {
-        var quoteText = data[0].q;
-        quoteTextElement.innerText = quoteText;
-        quoteBox.appendChild(quoteTextElement);
+    // display fact:
+    var displayFacts = function (data) {
+        var factText = data.data[0];
+        factTextElement.innerText = factText;
+        factBox.appendChild(factTextElement);
 
-        var quoteAuthor = data[0].a;
-        quoteAuthorElement.innerText = ' ~ ' + quoteAuthor;
-        quoteTextElement.appendChild(quoteAuthorElement);
+        factAuthorElement.innerText = ' ~ Julius Caesar';
+        factTextElement.appendChild(factAuthorElement);
     }
 
 
@@ -87,11 +82,11 @@ $(document).ready(function () {
     }
 
     var init = function () {
-        getRandomQuote();
+        getRandomFact();
         getRandomCat();
     }
 
-    getQuoteBtn.addEventListener('click',getQuoteBtnHandler);
+    getFactBtn.addEventListener('click', getFactBtnHandler);
     catPicBtn.addEventListener('click', getCatPicBtnHandler);
 
     init();
