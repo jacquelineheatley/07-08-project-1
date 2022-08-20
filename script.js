@@ -72,14 +72,22 @@ $(document).ready(function () {
         factTextElement.appendChild(factAuthorElement);
     }
 
-
+ 
 
     // display cat:
     var displayCat = function (data) {
         let catImgUrl = data[0].url;
         catPicElement.setAttribute('src', catImgUrl);
         catBox.appendChild(catPicElement);
+        catPicElement.style.width = 'auto';
+        catPicElement.style.height = '480px';
     }
+
+    //document.querySelector('button').onclick = function() {
+    //    var image = document.getElementById(cat-box-img);
+    //    image.style.width = '150px';
+    //    image.style.height = '150px';
+    //}
 
     var init = function () {
         getRandomFact();
