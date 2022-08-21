@@ -8,7 +8,12 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
   <link rel="icon" type="image/x-icon" href="favicon.png">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
@@ -26,7 +31,7 @@
       <article class="api-1" id="api-1">
         <h2>Cat Fact and Quote Generator</h2>
         <button id="get-fact-button" type="submit">Get Quote</button>
-        <div id="fact-box" class="responsive" width="500" height="500"></div>
+        <div id="fact-box" class="responsive fact-box" width="500" height="500"></div>
       </article>
     </section>
   </div>
@@ -48,7 +53,7 @@
         <input type="text" id="username" placeholder="username"><br>
         <input type="password" id="pw" placeholder="password"><br>
         <input type="email" id="email" placeholder="email"><br>
-        <input type="submit" onclick="test()">
+        <button type="submit" id="submit" onclick="test()">Submit</button>
 
   </div>
   </article>
@@ -59,7 +64,7 @@
     <section>
       <article class="footer" id="footer">
         <h2>Brought to you by wonderful, cat-lovin', code-geekin' peeps.</h2>
-        <img src="heart.png" alt="Heart logo." width="200" height="200">
+        <img src="heart.png" alt="Heart logo." width="75" height="75">
       </article>
     </section>
   </div>

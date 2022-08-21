@@ -81,6 +81,7 @@ $(document).ready(function () {
         catBox.appendChild(catPicElement);
         catPicElement.style.width = 'auto';
         catPicElement.style.height = '480px';
+        catPicElement.style.padding = '35px';
     }
 
     //document.querySelector('button').onclick = function() {
