@@ -1,142 +1,99 @@
-/* mobile first */
-@media only screen and (min-width: 1px) {
-      html {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        scroll-behavior: smooth; 
-      }
-      body {
-        margin-top: 0px;
-        padding: 10px; 
-        -webkit-background-size: cover; 
-        height: 100vh; 
-        width: 90%; 
-        background-attachment: fixed;
-        background-color: #90806Fcf;
-        background-size: cover;
-      }
-      .banner {
-        font-size: 35px;
-        min-height: 180px;
-        padding-left: 15px;
-      }
-      h1 {
-        text-align: center;
-        color: #55c562;
-        display: flex; 
-        flex-wrap: wrap; 
-      }
-      h2 {
-        text-align: center;
-        color: #55c562; 
-        display: flex; 
-        flex-wrap: wrap; 
-      }
-      p {
-        text-align: center;
-        color: #55c562; 
-        display: flex; 
-        flex-wrap: wrap; 
-      }
-      article {
-        padding: 10px;
-        margin: 10px;
-        min-height: 320px;
-        max-width: 1460px;
-        border-style: outset; 
-        border-radius: 5px;
-        border-color: #3c854fcf; 
-        background-color:  #149559cf;
-        color: #A6998C; 
-      } 
-      api1, api3 {
-        max-height: 320px;
-      }
-      cat-box
-      {
-        max-width: 960px;
-        margin: 0;
-      }
-      .control {
-        text-indent: 2px; 
-        flex: 1 auto; 
-        margin: auto; 
-        color: #074f0ccf;
-      }
-      /*flexbox*/
-      section {
-        display: flex;
-        color: rgba(255, 255, 255, 0.181); 
-      }
-      article {
-        flex: 1 200px;
-      }
-      button {
-        flex: 1 auto;
-        margin: auto;
-        font-size: 18px;
-        line-height: 1.5;
-        border-style: outset; 
-        border-radius: 5px;
-        border-color: #f5f5f5cf; 
-        background-color:  #f5f5f5;
-        color: #A6998C; 
-      }/*
-      cat-box-img {
-        width: 100%;
-        padding: 42%;
-        object-fit: contain;
-      }
-      cat-box-img img {
-        width: 100%;
-        max-inline-size: 75%;
-        block-size: auto;
-        height: auto;
-        object-fit: contain;
-      }*/
-      footer {
-        text-align: center;
-      }
-      span {
-        content: "#2764"
-      }
- /* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+  /* mobile first */
+  @media only screen and (min-width: 1px) {
+    html {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
+    body {
+      margin-top: 0px;
+      padding: 10px;
+      -webkit-background-size: cover;
+      height: 100vh;
+      width: 90%;
+      background-attachment: fixed;
+      /* background-color: #0101016f; */
+      background-color: #010101cf; 
+      background-size: cover;
+    }
 
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+    .banner {
+      background-image: url(banner.png);
+      background-size: cover;
+      height: 40vh;  
+      background-repeat: no-repeat; 
+    }
+    .api-1, .cat-box, .footer {
+      height: contain; 
+    }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-}
+    .currentdata {
+      text-align: left;
+    }
 
-/* @media only screen and (min-width: 700px)  */
-/* add css for larger screens here */
+    .output {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      text-align: left;
+      color: black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    h2 {
+      text-align: left;
+      color: black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    p {
+      text-align: left;
+      color: #030200;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    article {
+      padding: 10px;
+      margin: 10px;
+      max-width: 100%;
+      border-style: ridge;
+      border-color: #f5f5f5cf;
+      background-color: rgba(255, 255, 255, 0.181);
+      text-align: left;
+      color: black;
+      overflow: auto; 
+    }
+
+    /*flexbox*/
+    section {
+      display: flex;
+      color: rgba(255, 255, 255, 0.181);
+      flex-direction: row;
+      width: contain;
+      height: contain;
+    }
+
+    article {
+      flex: 1 200px;
+    }
+
+    button {
+      flex: 1 auto;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.5;
+      border-style: outset;
+      border-color: #f5f5f5cf;
+      background-color: #f5f5f5;
+      color: black;
+    }
+
+    title {
+      margin-left: 3px;
+    }
+  }

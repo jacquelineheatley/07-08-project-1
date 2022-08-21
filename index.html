@@ -1,96 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Your Daily Dose of Cats and Quotes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cat Image, .gif, Quote and Fact Generator</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
   <link rel="icon" type="image/x-icon" href="favicon.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <section>
-    <article class="banner" id="banner">
-      <h2>Your Daily Dose of Cats and Quotes</h2>
-    </article>
-  </section>
+  <div>
+    <section>
+      <article class="banner" id="banner">
+
+      </article>
+    </section>
   </div>
 
-  <section>
-    <article class="api-1" id="api-1">
-      <h2>Pawsome Quotes!</h2>
-      <button id="get-fact-button" type="submit">Another Purr-fect deTail</button>
-      <div id="fact-box">
-        <!-- <p><i>"Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin
-          coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub
-          hammock." </i> - Source </p> -->
-      </div>
-    </article>
-  </section>
+  <div>
+    <section>
+      <article class="api-1" id="api-1">
+        <h2>Cat Fact and Quote Generator</h2>
+        <button id="get-fact-button" type="submit">Get Quote</button>
+        <div id="fact-box" class="responsive" width="500" height="500"></div>
+      </article>
+    </section>
   </div>
 
-  <section>
-    <article class="cat-box" id="api-2">
-      <h2>API Two</h2>
-      <p>Click for another </p>
-      <button id="get-cat-button" type="submit">Get Cat Pic</button>
-      <div id="cat-box-img" class="responsive">
-
-      </div>
-    </article>
-  </section>
+  <div>
+    <section>
+      <article class="cat-box" id="api-2">
+        <h2>Cat Image and Gif Generator</h2>
+        <button id="get-cat-button" type="submit">Get Image</button>
+        <div id="cat-box-img" class="responsive" width="500" height="500"></div>
+      </article>
+    </section>
   </div>
 
-  <section>
-    <article class="api-3" id="api-3">
-      <h2>client side storage</h2>
-      <img src="morgancatcrpd.jpg" alt="Basement Cat & Morgan Freeman">
 
-      <p>For storing persistent data.</p>
 
-      <div class="control">
-        <input class="input" type="text" placeholder="purrfectpaws@toebeans.com">
-      </div>
-      <div class="control">
-        <div class="select">
-          <select>
-            <option>Select a treat</option>
-            <option>Catnip</option>
-            <option>Feathers</option>
-            <option>Tuna</option>
-            <option>Cardboard Box</option>
-            <option>Chicken</option>
-          </select>
-        </div>
-        <p>I agree to the Bastet's terms and conditions.</p>
-        <div class="control">
-          <button class="button is-primary">Store My Info</button>
-        </div>
-      </div>
-      <!-- Trigger/Open The Modal
-      <button id="myBtn">Get Image</button>
-       The Modal 
-      <div id="myModal" class="modal">
-      
-       Modal content
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>Use this modal instead.</p>
-        </divs>
-      </div> -->
-    </article>
-  </section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
-  <script type="text/javascript" src="script.js"></script>
-  <footer>
-    Brought to you by a group of wonderful, cat-lovin', code-geeking peeps <span>&#10084;</span>
-  </footer>
+  <div>
+    <section>
+      <article class="local-storage" id="local-storage">
+        <h2>Local Storage</h2>
+        <input type="text" id="username" placeholder="username"><br>
+        <input type="password" id="pw" placeholder="password"><br>
+        <input type="email" id="email" placeholder="email"><br>
+        <input type="submit" onclick="test()">
+      </article>
+    </section>
+  </div>
+
+  <div>
+    <section>
+      <article class="footer" id="footer">
+        <h2>Brought to you by wonderful, cat-lovin', code-geekin' peeps.</h2>
+        <img src="heart.png" alt="Heart logo." width="200" height="200">
+      </article>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
-<hr>
+
 </html>

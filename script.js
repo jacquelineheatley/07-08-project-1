@@ -68,7 +68,7 @@ $(document).ready(function () {
         factTextElement.innerText = factText;
         factBox.appendChild(factTextElement);
 
-        factAuthorElement.innerText = ' ~ Julius Caesar';
+        factAuthorElement.innerText = '- author';
         factTextElement.appendChild(factAuthorElement);
     }
 
@@ -101,6 +101,34 @@ $(document).ready(function () {
 
 })
 
+// code for local storage
+function test() {
+    // value data
+    var uid = document.getElementById("username").value;
+    var pw = document.getElementById("password"); 
+    var email = document.getElementById("email").value;  
 
+    // set data
+    var user = localStorage.setItem("uid", uid);
+    var pass = localStorage.setItem("pw", pw);
+    var em = localStorage.setItem("email", email);
 
+    // get stored data 
+    var user = localStorage.getItem("uid", uid);
+    var pass = localStorage.getItem("pw", pw);
+    var em = localStorage.getItem("email", email);
+
+    var a, b, c; 
+    a = "username";
+    b = "password"; 
+    c = "email";
+
+    if (a == user && b == pass && c == em)
+    {
+        alert("Successful ");
+    }
+    else {
+        alert("Not Successful ");
+    }
+    }
 
