@@ -4,7 +4,7 @@ $(document).ready(function () {
     const factsApiUrl = 'https://meowfacts.herokuapp.com/';
     var getFactBtn = document.getElementById('get-fact-button');
     var factBox = document.querySelector('#fact-box');
-    var factTextElement = document.createElement('h3'); 
+    var factTextElement = document.createElement('h3');
     var factAuthorElement = document.createElement('p');
 
     const catApiUrl = 'https://api.thecatapi.com/v1/images/search';
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 
     // button handlers:
-    var getFactBtnHandler = function(event) {
+    var getFactBtnHandler = function (event) {
         event.preventDefault();
 
         factBox.textContent = '';
@@ -31,18 +31,18 @@ $(document).ready(function () {
 
 
     // get quote function:
-    var getRandomFact = function() {
+    var getRandomFact = function () {
         fetch(factsApiUrl)
-        .then(function(response) {
-            if (response.ok) {
-                console.log(response);
-                return response.json();
-            }
-        })
-        .then(function (data) {
-            console.log(data.data[0]);
-            displayFacts(data);
-        })
+            .then(function (response) {
+                if (response.ok) {
+                    console.log(response);
+                    return response.json();
+                }
+            })
+            .then(function (data) {
+                console.log(data.data[0]);
+                displayFacts(data);
+            })
     }
 
     // get cat pic function:
@@ -72,7 +72,7 @@ $(document).ready(function () {
         factTextElement.appendChild(factAuthorElement);
     }
 
- 
+
 
     // display cat:
     var displayCat = function (data) {
@@ -105,8 +105,8 @@ $(document).ready(function () {
 function test() {
     // value data
     var uid = document.getElementById("username").value;
-    var pw = document.getElementById("password"); 
-    var email = document.getElementById("email").value;  
+    var pw = document.getElementById("password");
+    var email = document.getElementById("email").value;
 
     // set data
     var user = localStorage.setItem("uid", uid);
@@ -118,17 +118,19 @@ function test() {
     var pass = localStorage.getItem("pw", pw);
     var em = localStorage.getItem("email", email);
 
-    var a, b, c; 
+    var a, b, c;
     a = "username";
-    b = "password"; 
+    b = "password";
     c = "email";
 
-    if (a == user && b == pass && c == em)
-    {
-        alert("Successful ");
+    if (a == user && b == pass && c == em) {
+        console.log("email", email);
+        console.log("uid", uid);
+        console.log("pw", pw);
     }
     else {
-        alert("Not Successful ");
+        console.log("email", email);
+        console.log("uid", uid);
+        console.log("pw", pw);
     }
-    }
-
+}
