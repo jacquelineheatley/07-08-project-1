@@ -1,17 +1,32 @@
 # catQuote-project1
 
 Table of Contents
+1. About the Project
+* Built with
+2. Getting Started
+* Prerequisites
+* Installation
+3. Usage
+4. Roadmap
+5. Contributing
+6. License
+7. Contact
+8. Acknowlegments
+
 About the Project
 
-*
-*
-*
+* //
+* //
+* //
+
+
 Built with
 
-*HTML
-*CSS
-*JAVASCRIPT
-*JQUERY
+* HTML
+* CSS
+* JAVASCRIPT
+* JQUERY
+* //
 
 Getting Started
 
@@ -19,18 +34,21 @@ Instructions to set up this repo locally. Follow the below steps.
 
 Prerequisites
 
-*github
-*VS Code
+* github
+* VS Code
+* //
 
 Installation
 
-1. Get a free API Key at 
+1. Get a free API Key at //
 2. Clone the repo
-3. Install
+3. Install //
 4. Enter the API in 
 
 Usage
-Examples of how to enjoy this project.
+
+If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gif then this app is also for you! 
+
 screenshots
 code examples
 demos
@@ -38,6 +56,8 @@ demos
 
 Roadmap
 back to top links
+
+Please see open issues list for any proposed features, known and unkown issues.
 
 Contributing
 
@@ -54,9 +74,9 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 Contact
 
-Luke - @
-Jackie - @
-Felicia - @
+Luke 
+Jackie 
+Felicia 
 
 
 Acknowledgments
