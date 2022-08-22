@@ -1,11 +1,11 @@
 # catQuote-project1
 
-Table of Contents
+#Table of Contents
 1. About the Project
-* Built with
+..* Built with
 2. Getting Started
-* Prerequisites
-* Installation
+..* Prerequisites
+..* Installation
 3. Usage
 4. Roadmap
 5. Contributing
@@ -26,11 +26,13 @@ Table of Contents
 * CSS
 * JAVASCRIPT
 * JQUERY
+* BULMA
+* MaterializeCSS
 * //
 
 #Getting Started
 
-Instructions to set up this repo locally. Follow the below steps.
+##Instructions to set up this repo locally. Follow the below steps.
 
 #Prerequisites
 
@@ -47,7 +49,7 @@ Instructions to set up this repo locally. Follow the below steps.
 
 #Usage
 
-If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gifs then this app is also for you! 
+##If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gifs then this app is also for you! 
 
 screenshots
 code examples
@@ -61,11 +63,11 @@ demos
 -[ ] Add Examples
 -[ ] Add copy & paste sections
 
-Please see open issues list for any proposed features, known and unkown issues.
+##Please see open issues list for any proposed features, known and unkown issues.
 
 #Contributing
 
-Contributions are the open source community's asset and are valued for creativity, inspiration and continued learning. Contributions are greatly appreciated.
+##Contributions are the open source community's asset and are valued for creativity, inspiration and continued learning. Contributions are greatly appreciated.
 Suggestions are welcome via forking the repo and pull requests. Please open and tag the issue with 'betterment'. Please give the project a star. Thank you again for all contributions.
 1. Fork the Project
 2. Commit your Changes
@@ -74,21 +76,21 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 #License
 
-Distributed under the MIT License. See LICENSE.txt for more information.
+##Distributed under the MIT License. See LICENSE.txt for more information.
 
 #Contact
 
-Luke 
-Jackie 
-Felicia 
+..*Luke 
+..*Jackie 
+..*Felicia 
 
 
 #Acknowledgments
 
 Resources our group found useful
-* Googlefonts
-* W3schools
-*
+..* Googlefonts
+..* W3schools
+..*
 
 #Releases
 
@@ -96,12 +98,12 @@ Resources our group found useful
 
 #Packages
 
-No packages published
+##No packages published
 
 #Contributors
 
-Luke
-Jackie
-Felicia
+..*Luke
+..*Jackie
+..*Felicia
 
 
