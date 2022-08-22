@@ -50,7 +50,7 @@ User Story:
 
 1. Get a free API Key at []
 2. Clone the repo
-3. Install //
+3. Install code editor
 4. Enter the API in the code editor
 
 [Back to Top](#MeowFacts)
@@ -65,7 +65,7 @@ Screenshots:
 ![screenshot](meowjs.png)
 
 Demo:
-![video](MeowFacts.webm.mov)
+![video](MeowFacts.mov) 
 
 [Back to Top](#MeowFacts)
 
