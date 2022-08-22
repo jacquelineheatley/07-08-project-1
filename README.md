@@ -65,13 +65,17 @@ Screenshots:
 ![screenshot](meowjs.png)
 
 Demo:
+<<<<<<< HEAD
 ![link](MeowFactDemo.mp4) 
+=======
+![video](https://user-images.githubusercontent.com/107317474/186019274-fa9fd469-201a-4647-943f-a7d6676a9af1.mp4) 
+>>>>>>> 0c8e5455a6bf535aec91a1d7d406a36641b7d1bb
 
 [Back to Top](#MeowFacts)
 
 # Roadmap
 
-- [ ] Add Demo
+- [x] Add Demo
 - [x] Add Back to Top links
 - [x] Add Examples
 - [x] Add Links
