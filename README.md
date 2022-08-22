@@ -15,10 +15,10 @@
 
 # About the Project
 
-* //
-* //
-* //
-
+User Story:
+* AS a user in need of a break from stress
+* I WANT a webpage that shows my favorite animals and inspirational quotes
+* So THAT I can be relieved of stress
 
 # Built with
 
