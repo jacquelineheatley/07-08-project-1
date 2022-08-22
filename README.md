@@ -80,9 +80,9 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # Contact
 
-[Luke](https://github.com/BarkMulcher?tab=repositories) 
-Jackie 
-Felicia 
+[Luke](https://github.com/BarkMulcher) 
+[Jackie](https://github.com/heatleyj7)
+[Felicia](https://github.com/maddiethornberry) 
 
 
 # Acknowledgments
