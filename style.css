@@ -26,6 +26,10 @@
       background-position: center;
 
     }
+    img {
+      object-fit: contain;  
+
+    }
 
     .api-1,
     .cat-box {
@@ -164,7 +168,7 @@
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 600px) {
     html {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       scroll-behavior: smooth;
@@ -182,6 +186,10 @@
       background-attachment: fixed;
       background-color: #010101cf;
       background-size: cover;
+    }
+    img {
+      object-fit: contain;  
+
     }
 
     .banner {
