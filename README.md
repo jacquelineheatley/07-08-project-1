@@ -87,8 +87,9 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 # Acknowledgments
 
 Resources our group found useful
-* Googlefonts
+* Github
 * W3schools
+* CSS-Tricks
 *
 
 # Releases
