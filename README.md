@@ -39,14 +39,13 @@ User Story:
 
 ## Instructions to set up this repo locally. Follow the below steps.
 
-# Prerequisites
+###### Prerequisites
 
 * github
 * VS Code or other code editor
 
-[Back to Top](#MeowFacts)
 
-# Installation
+###### Installation
 
 1. Get a free API Key at []
 2. Clone the repo
