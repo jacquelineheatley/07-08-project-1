@@ -71,7 +71,7 @@ Demo:
 
 # Roadmap
 
-- [ ] Add Demo
+- [x] Add Demo
 - [x] Add Back to Top links
 - [x] Add Examples
 - [x] Add Links
