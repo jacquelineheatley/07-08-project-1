@@ -2,6 +2,7 @@
 
 # Table of Contents
 1. About the Project
+* User Story
 * Built with
 2. Getting Started
 * Prerequisites
