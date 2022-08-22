@@ -26,12 +26,16 @@
     }
 
     .api-1,
-    .cat-box,
-    .footer {
+    .cat-box {
       height: contain;
       min-height: 270px;
     }
     
+    .footer {
+      height: contain;
+      min-height: 270px;
+    }
+
     .currentdata {
       text-align: left;
     }
