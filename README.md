@@ -47,7 +47,7 @@ Installation
 
 Usage
 
-If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gif then this app is also for you! 
+If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gifs then this app is also for you! 
 
 screenshots
 code examples
@@ -55,7 +55,11 @@ demos
 
 
 Roadmap
-back to top links
+
+Add Changelog
+Add back to top links
+Add Examples
+Add copy & paste sections
 
 Please see open issues list for any proposed features, known and unkown issues.
 
