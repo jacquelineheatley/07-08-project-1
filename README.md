@@ -79,7 +79,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # License
 
-###### Distributed under the MIT License. See LICENSE.txt for more information.
+###### Distributed under the MIT License. See [LICENSE.txt] for more information.
 
 # Contact
 
