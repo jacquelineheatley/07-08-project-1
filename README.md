@@ -1,4 +1,4 @@
-# catQuote-project1
+# Meow Facts
 
 # Table of Contents
 1. About the Project
@@ -28,7 +28,7 @@
 * JQUERY
 * BULMA
 * MaterializeCSS
-* //
+* Googlefonts
 
 # Getting Started
 
@@ -37,15 +37,14 @@
 # Prerequisites
 
 * github
-* VS Code
-* //
+* VS Code or other code editor
 
 # Installation
 
-1. Get a free API Key at //
+1. Get a free API Key at []
 2. Clone the repo
 3. Install //
-4. Enter the API in 
+4. Enter the API in the code editor
 
 # Usage
 
@@ -59,7 +58,7 @@ demos
 # Roadmap
 
 -[ ] Add Changelog
--[ ]Add back to top links
+-[ ] Add back to top links
 -[ ] Add Examples
 -[ ] Add copy & paste sections
 
@@ -80,9 +79,9 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # Contact
 
-[Luke](https://github.com/BarkMulcher) 
-[Jackie](https://github.com/heatleyj7)
-[Felicia](https://github.com/maddiethornberry) 
+- [Luke](https://github.com/BarkMulcher) 
+- [Jackie](https://github.com/heatleyj7)
+- [Felicia](https://github.com/maddiethornberry) 
 
 
 # Acknowledgments
@@ -102,8 +101,8 @@ Resources our group found useful
 
 # Contributors
 
-Luke
-Jackie
-Felicia
+- [Luke](https://github.com/BarkMulcher) 
+- [Jackie](https://github.com/heatleyj7)
+- [Felicia](https://github.com/maddiethornberry) 
 
 
