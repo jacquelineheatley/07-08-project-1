@@ -75,7 +75,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # License
 
-## Distributed under the MIT License. See LICENSE.txt for more information.
+###### Distributed under the MIT License. See LICENSE.txt for more information.
 
 # Contact
 
@@ -86,7 +86,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # Acknowledgments
 
-Resources our group found useful
+## Resources our group found useful
 * Github
 * W3schools
 * CSS-Tricks
@@ -98,7 +98,7 @@ Resources our group found useful
 
 # Packages
 
-## No packages published
+###### No packages published
 
 # Contributors
 
