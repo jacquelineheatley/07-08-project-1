@@ -48,9 +48,10 @@ User Story:
 
 # Usage
 
-## If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gifs then this app is also for you! 
+If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gifs then this app is also for you! 
 
 screenshots
+![screenshot](heatleyj7.github.io_cat-api-project_.png)
 code examples
 demos
 
@@ -91,6 +92,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 * [W3schools](https://w3schools.com/)
 * [CSS-Tricks](https://css-tricks.com/)
 * [itnext](https://itnext.io/)
+* [stackoverflow](https://stackoverflow.com/)
 
 # Releases
 
