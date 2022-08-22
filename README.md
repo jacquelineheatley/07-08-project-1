@@ -2,10 +2,10 @@
 
 #Table of Contents
 1. About the Project
-..* Built with
+* Built with
 2. Getting Started
-..* Prerequisites
-..* Installation
+* Prerequisites
+* Installation
 3. Usage
 4. Roadmap
 5. Contributing
@@ -80,9 +80,9 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 #Contact
 
-*Luke 
-*Jackie 
-*Felicia 
+Luke 
+Jackie 
+Felicia 
 
 
 #Acknowledgments
@@ -102,8 +102,8 @@ Resources our group found useful
 
 #Contributors
 
-*Luke
-*Jackie
-*Felicia
+Luke
+Jackie
+Felicia
 
 
