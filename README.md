@@ -50,18 +50,20 @@ User Story:
 
 If random facts and quotes about cats tickles your toebeans this app is for you! If you enjoy looking at random cat pictures and gifs then this app is also for you! 
 
-screenshots
+Screenshots:
 ![screenshot](heatleyj7.github.io_cat-api-project_.png)
-code examples
-demos
+![screenshot](meowcss.png)
+![screenshot](meowjs.png)
+
+Demo:
 
 
 # Roadmap
 
--[ ] Add Changelog
--[ ] Add back to top links
--[ ] Add Examples
--[ ] Add copy & paste sections
+- [ ] Add Changelog
+- [ ] Add back to top links
+- [ ] Add Examples
+- [ ] Add copy & paste sections
 
 ## Please see open issues list for any proposed features, known and unkown issues.
 
