@@ -70,10 +70,10 @@ Demo:
 
 # Roadmap
 
-- [ ] Add Changelog
-- [ ] Add back to top links
+- [ ] Add Demo
+- [x] Add Back to Top links
 - [x] Add Examples
-- [x] Add links
+- [x] Add Links
 
 ## Please see open issues list for any proposed features, known and unkown issues.
 
