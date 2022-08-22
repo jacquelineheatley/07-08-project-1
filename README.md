@@ -80,17 +80,17 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 #Contact
 
-..*Luke 
-..*Jackie 
-..*Felicia 
+*Luke 
+*Jackie 
+*Felicia 
 
 
 #Acknowledgments
 
 Resources our group found useful
-..* Googlefonts
-..* W3schools
-..*
+* Googlefonts
+* W3schools
+*
 
 #Releases
 
@@ -102,8 +102,8 @@ Resources our group found useful
 
 #Contributors
 
-..*Luke
-..*Jackie
-..*Felicia
+*Luke
+*Jackie
+*Felicia
 
 
