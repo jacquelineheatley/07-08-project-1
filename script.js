@@ -68,7 +68,7 @@ $(document).ready(function () {
         factTextElement.innerText = factText;
         factBox.appendChild(factTextElement);
 
-        factAuthorElement.innerText = '- author';
+        factAuthorElement.innerText = '';
         factTextElement.appendChild(factAuthorElement);
     }
 
