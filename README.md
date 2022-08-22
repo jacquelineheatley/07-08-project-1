@@ -1,4 +1,4 @@
-# Meow Facts
+# MeowFacts
 
 # Table of Contents
 1. About the Project
@@ -17,8 +17,9 @@
 
 User Story:
 * AS a user in need of a break from stress
-* I WANT a webpage that shows my favorite animals and inspirational quotes
+* I WANT a simple app that shows pictures of cute cats and facts about felines
 * So THAT I can be relieved of stress
+*Given the need for information and animal pictures
 
 # Built with
 
@@ -62,8 +63,8 @@ Demo:
 
 - [ ] Add Changelog
 - [ ] Add back to top links
-- [ ] Add Examples
-- [ ] Add copy & paste sections
+- [x] Add Examples
+- [x] Add links
 
 ## Please see open issues list for any proposed features, known and unkown issues.
 
