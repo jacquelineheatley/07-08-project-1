@@ -80,7 +80,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # Contact
 
-Luke 
+[Luke](https://github.com/BarkMulcher?tab=repositories) 
 Jackie 
 Felicia 
 
