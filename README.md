@@ -94,7 +94,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 
 # Releases
 
-
+{View deployed site](https://heatleyj7.github.io/cat-api-project/)
 
 # Packages
 
