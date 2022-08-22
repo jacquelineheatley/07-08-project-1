@@ -87,10 +87,10 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 # Acknowledgments
 
 ## Resources our group found useful
-* Github
-* W3schools
-* CSS-Tricks
-*
+* [github](https://github.com/)
+* [W3schools](https://w3schools.com/)
+* [CSS-Tricks](https://css-tricks.com/)
+* [itnext](https://itnext.io/)
 
 # Releases
 
