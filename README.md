@@ -21,7 +21,7 @@ User Story:
 * So THAT I can be relieved of stress
 *Given the need for information and animal pictures
 
-[link](#MeowFacts)
+[Back to Top](#MeowFacts)
 
 # Built with
 
@@ -33,6 +33,8 @@ User Story:
 * MaterializeCSS
 * Googlefonts
 
+[Back to Top](#MeowFacts)
+
 # Getting Started
 
 ## Instructions to set up this repo locally. Follow the below steps.
@@ -42,12 +44,16 @@ User Story:
 * github
 * VS Code or other code editor
 
+[Back to Top](#MeowFacts)
+
 # Installation
 
 1. Get a free API Key at []
 2. Clone the repo
 3. Install //
 4. Enter the API in the code editor
+
+[Back to Top](#MeowFacts)
 
 # Usage
 
@@ -61,6 +67,8 @@ Screenshots:
 Demo:
 ![video](MeowFacts.webm.mov)
 
+[Back to Top](#MeowFacts)
+
 # Roadmap
 
 - [ ] Add Changelog
@@ -69,6 +77,8 @@ Demo:
 - [x] Add links
 
 ## Please see open issues list for any proposed features, known and unkown issues.
+
+[Back to Top](#MeowFacts)
 
 # Contributing
 
@@ -79,9 +89,13 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 4. Push to the Branch
 5. Open a Pull Request
 
+[Back to Top](#MeowFacts)
+
 # License
 
 ###### Distributed under the MIT License. See [LICENSE.txt] for more information.
+
+[Back to Top](#MeowFacts)
 
 # Contact
 
@@ -89,6 +103,7 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 - [Jackie](https://github.com/heatleyj7)
 - [Felicia](https://github.com/maddiethornberry) 
 
+[Back to Top](#MeowFacts)
 
 # Acknowledgments
 
@@ -99,18 +114,26 @@ Suggestions are welcome via forking the repo and pull requests. Please open and 
 * [itnext](https://itnext.io/)
 * [stackoverflow](https://stackoverflow.com/)
 
+[Back to Top](#MeowFacts)
+
 # Releases
 
 [View deployed site](https://heatleyj7.github.io/cat-api-project/)
 
+[Back to Top](#MeowFacts)
+
 # Packages
 
 ###### No packages published
+
+[Back to Top](#MeowFacts)
 
 # Contributors
 
 - [Luke](https://github.com/BarkMulcher) 
 - [Jackie](https://github.com/heatleyj7)
 - [Felicia](https://github.com/maddiethornberry) 
+
+[Back to Top](#MeowFacts)
 
 
