@@ -35,12 +35,10 @@ $(document).ready(function () {
         fetch(factsApiUrl)
             .then(function (response) {
                 if (response.ok) {
-                    console.log(response);
                     return response.json();
                 }
             })
             .then(function (data) {
-                console.log(data.data[0]);
                 displayFacts(data);
             })
     }
@@ -50,13 +48,10 @@ $(document).ready(function () {
         fetch(catApiUrl)
             .then(function (response) {
                 if (response.ok) {
-                    console.log(response);
                     return response.json();
                 }
             })
             .then(function (data) {
-                console.log(data);
-                console.log(data[0].url);
                 displayCat(data);
             })
 
@@ -83,12 +78,6 @@ $(document).ready(function () {
         catPicElement.style.height = '480px';
         catPicElement.style.padding = '35px';
     }
-
-    //document.querySelector('button').onclick = function() {
-    //    var image = document.getElementById(cat-box-img);
-    //    image.style.width = '150px';
-    //    image.style.height = '150px';
-    //}
 
     var init = function () {
         getRandomFact();
@@ -124,14 +113,4 @@ function test() {
     b = "password";
     c = "email";
 
-    if (a == user && b == pass && c == em) {
-        console.log("email", email);
-        console.log("uid", uid);
-        console.log("pw", pw);
-    }
-    else {
-        console.log("email", email);
-        console.log("uid", uid);
-        console.log("pw", pw);
-    }
 }
